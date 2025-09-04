@@ -7,7 +7,7 @@ def test():
     print(result)
     print("")
 
-    result = write_file("calculator", "lorem.txt", "wait, this isn't lorem ipsum")
+    result = write_file("calculator", "pkg/morelorem.txt", "lorem ipsum dolor sit amet")
     print("Result for current directory:")
     print(result)
     print("")
